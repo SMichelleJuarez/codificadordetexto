@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background:  linear-gradient(to right, #104936,#2f923d, #76fc88);
+    flex-wrap: wrap;
+}
+
+img{
+    padding: 0.5rem;
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    font-size: 2rem;
+    padding: 0.75rem;
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+    font-weight: normal;
+    font-family: 'Andada Pro', serif;
+}
+
+
+.contenedor {
+    background: linear-gradient(to right, #104936,#2f923d, #76fc88); 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;   
+}
+
+.tarjeta{
+    width: 600px;
+    height: 420px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.error {
+    color: rgb(228, 5, 5);
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0 0.3rem;
+}
+
+button {
+    all: initial;
+    font: inherit;
+    cursor: pointer;
+    user-select: none;
+
+    color: rgb(255, 253, 253);
+    background:   #054d17;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.botones{
+    display: flex;
+}
+
+.mensaje {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    all: initial;
+    font: inherit;
+    background: transparent;
+    color: rgb(3, 3, 3);
+    padding: 1em 0.5em; 
+}
+
+ 
+.footer {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #161515;  
+}
